@@ -4,7 +4,8 @@ import com.projectworks.studentmanagement.model.Student;
 
 import java.util.List;
 
-public class IStudentService {
+public interface StudentService {
+
     Student addStudent(Student student);
 
     List<Student> getStudents();
